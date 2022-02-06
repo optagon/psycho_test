@@ -41,3 +41,13 @@ def Result(first_number, second_number, first_letter, second_letter):
     result.append(str(second_number) + second_letter)
     print("from the reading", result)
     return result
+
+        #time.sleep(6)
+        #with open('results.txt', 'a') as file:
+            #file.write(str(result))
+
+
+        #print('')
+        #print(prvni_cislo, druhy_cislo, prvni_pismena, druhy_pismena)
+        #time.sleep(3)
+        #os.system('cls')
