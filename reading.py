@@ -31,9 +31,13 @@ def Reading():
     return reading
 
 def Combination(first_number, second_number, first_letter, second_letter):
-    combination =str(first_number) + ' ' + str(second_number) + ' ' + first_letter + ' ' + second_letter
+    combination = str(first_number) + ' ' + str(second_number) + ' ' + first_letter + ' ' + second_letter
     return combination
 
 def Result(first_number, second_number, first_letter, second_letter):
-    result = str(first_number) + first_letter +str(second_number) + second_letter
+    result = []
+    #result = str(first_number) + first_letter + ' ' + str(second_number) + second_letter
+    result.append(str(first_number) + first_letter )
+    result.append(str(second_number) + second_letter)
+    print("from the reading", result)
     return result
